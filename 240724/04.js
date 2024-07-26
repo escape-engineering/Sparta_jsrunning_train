@@ -1,17 +1,13 @@
 function calculator(num1, operator, num2) {
     switch (operator) {
         case "+":
-            console.log(num1 + num2);
-            break;
+            return num1 + num2;
         case "-":
-            console.log(num1 - num2);
-            break;
+            return num1 - num2;
         case "*":
-            console.log(num1 * num2);
-            break;
+            return num1 * num2;
         case "/":
-            console.log(num1 / num2);
-            break;
+            return num1 / num2;
     }
 }
 calculator(3, "+", 6); // 결과값 9
